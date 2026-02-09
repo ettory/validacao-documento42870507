@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Declaração de Conclusão de Curso</title>
+
+<style>
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#000}
+  .page{width:210mm;min-height:297mm;padding:25mm 22mm;margin:auto;position:relative}
+  .header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20mm}
+  .logo{width:65mm;height:auto}
+  .qrcode{width:32mm;height:32mm;object-fit:contain;border:1px solid #ccc}
+  h1{text-align:center;font-size:18pt;margin:0 0 18mm;letter-spacing:.5px}
+  p{font-size:12.5pt;line-height:1.6;text-align:justify;margin:0 0 12mm}
+  .footer{position:absolute;bottom:25mm;left:22mm;right:22mm;text-align:center}
+  .data{font-size:12.5pt;margin-bottom:8mm}
+  .verificacao{font-size:9.5pt;color:#666}
+  @media print{body{background:#fff}}
+</style>
+</head>
+
+<body>
+<div class="page">
+
+  <div class="header">
+    <img class="logo" src="unibf.jpeg" alt="UniBF - Centro Universitário">
+    <img class="qrcode"
+         src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://iaunibf.com.br/validadocumento"
+         alt="QR Code de verificação do documento">
+  </div>
+
+  <h1>DECLARAÇÃO DE CONCLUSÃO DE CURSO</h1>
+
+  <p>
+    Declaramos, para os devidos fins, que o(a) aluno(a)
+    <strong>ETTORI RICARDO CASSIANO ALMEIDA</strong>, portador(a) do CPF
+    <strong>015.222.709-14</strong>, concluiu integralmente o curso de
+    <strong>Segunda Graduação em Pedagogia</strong>, nesta Instituição de Ensino Superior,
+    tendo cumprido todas as exigências acadêmicas previstas no respectivo projeto pedagógico do curso.
+  </p>
+
+  <p>
+    A presente declaração é emitida a pedido do(a) interessado(a), para fins de comprovação acadêmica.
+  </p>
+
+  <div class="footer">
+    <div class="data"><strong>Paraíso do Norte</strong>, ___ de __________________ de 2026.</div>
+    <div class="verificacao">Documento com verificação por QR Code.</div>
+  </div>
+
+</div>
+</body>
+</html>
